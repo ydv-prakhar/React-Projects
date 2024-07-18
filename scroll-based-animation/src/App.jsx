@@ -10,7 +10,7 @@ const App = () => {
   });
 
   const x = useTransform(scrollYProgress, [0, 1], [-600, window.innerWidth - 200]);
-  const y = useTransform(scrollYProgress, [0, 1], [0, 1000]); // Keep y fixed
+  const y = useTransform(scrollYProgress, [0, 1], [0, 1150]); // Keep y fixed
 
   useEffect(() => {
     const lenis = new Lenis();
